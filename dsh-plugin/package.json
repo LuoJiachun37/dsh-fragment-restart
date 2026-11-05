@@ -1,0 +1,11 @@
+{
+  "name": "dsh-fragment-restart",
+  "version": "0.2.0",
+  "description": "从 DeepSeek Harness 聊天收集附件和链接，在碎时重启生成学习笔记",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": ["index.mjs", "cordis.patch.yml", "README.md"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

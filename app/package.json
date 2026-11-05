@@ -1,0 +1,28 @@
+{
+  "name": "fragment-restart",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "node ../server/local-server.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "cheerio": "^1.2.0",
+    "lucide-react": "latest",
+    "openai": "^7.43.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "tesseract.js": "^5.1.1",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

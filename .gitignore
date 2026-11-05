@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.api-venv/
+.venv/
+/server/data/
+/server/uploads/
+node_modules/
+dist/
+*.tgz
+*.traineddata
+*.tsbuildinfo
+/app/vite.config.js
+/app/vite.config.d.ts
+/publish/
